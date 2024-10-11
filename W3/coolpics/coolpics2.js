@@ -53,3 +53,4 @@ gallery.addEventListener("click", viewHandler);
 
 const closeButton = document.querySelector(".close-viewer");
 closeButton.addEventListener("click", closeViewer);
+closeViewer()
