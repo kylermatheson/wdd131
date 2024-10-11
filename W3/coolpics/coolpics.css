@@ -5,6 +5,42 @@ body {
     margin: 0;
 }
 
+.viewer {
+    position: fixed;
+    top: 0;          /* Sets the top edge to the top of the viewport */
+    left: 0;         /* Sets the left edge to the left of the viewport */
+    right: 0;        /* Sets the right edge to the right of the viewport */
+    bottom: 0;       /* Sets the bottom edge to the bottom of the viewport */
+    margin: 0; 
+    background: rgba(0, 0, 0, 0.75);
+
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1.5rem;
+    
+}
+
+.close-viewer {
+    color: white;
+    background: rgba(0, 0, 0, 0.0);
+    grid-row: 1;
+    border: none;
+    text-align: right;
+    font-size: 2rem;
+
+}
+
+.viewer img {
+    max-height: 100%;
+ 
+    margin: 0;
+    grid-row: 2;
+    color: white;
+    border: none;
+
+}
+
+
 header {
     text-align: center;
     background-color: blueviolet;
@@ -118,6 +154,9 @@ footer {
     #dropdownMenu.show {
         display: contents;
     }
+    .viewer {
+        padding: 7rem;
+    }
 
 }
 
@@ -141,6 +180,18 @@ footer {
     }
     li {
         display: inline-block;
+    }
+    .viewer {
+        margin: 5rem;
+        padding: 5rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .viewer img {
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: contain;
     }
 }
 
