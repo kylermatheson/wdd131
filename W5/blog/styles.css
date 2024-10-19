@@ -1,0 +1,88 @@
+h1{
+    color: #473144;
+}
+
+h2 {
+    color:#AF1B3F
+}
+
+p {
+    color: #473144;
+}
+
+a {
+    color: #AF1B3F;
+    text-decoration: none;
+    padding: .5rem;
+
+}
+.skiptocontent a {
+	/* set the element to absolute positioning */
+    position:absolute;
+	/* move it off screen */
+    top:-40px;
+	/* Make sure it will be on the left edge of the screen */
+	/* Change the background and color to something that stands out */
+}
+.skiptocontent a:focus {
+	/* Move it back on when focused */
+    position:block;
+    top: 0px;
+}
+li {
+    list-style-type: none;
+}
+
+header h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+#main_nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-top: 1px solid #EFC69B;
+    border-bottom: 1px solid #EFC69B;
+
+}
+
+#articles-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;  
+}
+
+.column_one {
+    grid-column: 1 / 2;
+    border-right: 1px solid #EFC69B;
+    margin-right: 3rem;
+    padding-right: 3rem;
+
+}
+
+.column_one p {
+    text-align: right;
+}
+
+.column_two {
+    grid-column: 2 / 3;
+}
+
+.column_three {
+    grid-column: 3 / 4;
+    grid-row: 1 / span 2;
+    padding: 1rem;
+    border: 1px solid #EFC69B;
+}
