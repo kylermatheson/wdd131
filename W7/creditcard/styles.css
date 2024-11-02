@@ -123,8 +123,11 @@ button {
 }
 
 .divCvc {
-    grid-column: 2/3;
-    grid-row: 2;
+    position: absolute;
+    top: 424px;
+    right: 0px;
+    width: 260px;
+    height: 0px;
 }
 
 
