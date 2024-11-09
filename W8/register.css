@@ -154,9 +154,24 @@
   button:hover {
     background: #00b33c;
   }
-  @media (max-width: 568px) {
+
+
+
+.participants {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+}
+
+#add {
+    grid-column: span 2;
+}
+
+@media (max-width: 568px) {
     .columns div {
       width: 100%;
     }
+    .participants {
+        display: block;
+    }
   }
-  
