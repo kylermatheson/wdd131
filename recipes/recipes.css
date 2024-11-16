@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');;
+:root {
+--primary-color: #1B98E0;
+--secondary-color: #59c3c3;
+--text-dark: #333;
+--text-light: #ebebeb;
+--primary-font: Arial, Helvetica,sans-serif;
+--secondary-font: "Amatic SC";
+}
+
+
+
+img {
+	max-width: 100%;
+}
+header img {
+    width: 25%;
+}
+header h1 {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.search {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+}
+
+.search img {
+    width: 3em;
+}
+
+input {
+    width: 80%;
+    height: 3em;
+}
+
+.line {
+    border: 1px solid gray;
+    margin: 2em;
+}
+
+
+footer a img{
+    width: 2em;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    
+}
+
+
+
+/* Medium devices (601px to 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    header img {
+      width: 10%;
+    }
+  
+    header h1 {
+      font-size: 5rem;
+    }
+  
+    input {
+      width: 80%;
+      height: 2.8em;
+    }
+  
+    .search img {
+      width: 2.5em;
+    }
+  
+    .line {
+      margin: 1.5em;
+    }
+  
+    footer a img {
+      width: 1.8em;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: auto, auto;
+    }
+    
+    .social {
+        grid-column: 2/3;
+        grid-row: 1;
+        align-content: center;
+        align-items: center;    
+    }
+    
+    .link_icons {
+        grid-column: 1/2;
+        grid-row: 1;
+    }
+  }
+  
+  /* Large devices (min-width: 1025px) */
+  @media (min-width: 1025px) {
+    header img {
+      width: 10%;
+    }
+  
+    header h1 {
+      font-size: 7rem;
+    }
+  
+    input {
+      width: 80%;
+      height: 3.5em;
+    }
+  
+    .search img {
+      width: 3.5em;
+    }
+  
+    .line {
+      margin: 3em;
+    }
+  
+    footer a img {
+      width: 2.5em;
+    }
+    footer {
+        display: grid;
+        grid-template-columns: auto, auto;
+    }
+    
+    .social {
+        grid-column: 2/3;
+        grid-row: 1;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .link_icons {
+        grid-column: 1/2;
+        grid-row: 1;
+    }
+  }
