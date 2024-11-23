@@ -32,7 +32,7 @@ const recipes = [
 			'Cook until golden brown in a waffle iron. Serve with butter and Wilted Greens or Honey.'
 		],
 		recipeYield: '6 waffles',
-		rating: 4 [<span class="rating" role="img" aria-label="Rating: 4 out of 5 stars"><span aria-hidden="true" class="icon-star">⭐</span><span aria-hidden="true" class="icon-star">⭐</span><span aria-hidden="true" class="icon-star">⭐</span><span aria-hidden="true" class="icon-star-empty">⭐</span><span aria-hidden="true" class="icon-star-empty">☆</span></span>]
+		rating: 4,
 	},
 	{
 		author: 'Shane Thompson',
@@ -280,4 +280,4 @@ const recipes = [
 	}
 ]
 
-export default recipes
+export default recipes;
