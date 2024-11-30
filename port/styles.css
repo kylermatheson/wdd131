@@ -1,0 +1,126 @@
+/* styles.css */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #e8e8e8; /* White Smoke */
+    background-color: #1e2022; /* Gunmetal */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #e8e8e8; /* Paynes Gray */
+    color: #1e2022;
+    padding: 20px 0;
+}
+
+.logo {
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2rem;
+    margin: 0;
+    text-align: left;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0;
+    padding: 0;
+
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #1e2022;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #bfbfbf; /* Silver */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skills-list li {
+    background-color: #2d3339;
+    padding: 10px 20px;
+    border-radius: 5px;
+    list-style: none;
+}
+
+.project {
+    background-color: #2d3339;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #161719; /* Jet */
+    text-align: center;
+    padding: 10px 0;
+    color: #e8e8e8;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+a {
+    color: #bfbfbf;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e8e8e8;
+}
+
+@media (min-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns: auto, auto;
+        align-items: center;
+    }
+    
+    .logo {
+        grid-column: 1/2;
+    }
+    
+    .bar {
+        grid-column: 2/3;
+    }
+
+  }
+
