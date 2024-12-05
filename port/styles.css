@@ -48,10 +48,27 @@ header nav ul li a:hover {
     color: #bfbfbf; /* Silver */
 }
 
-.container {
+.header_container {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
+}
+
+#about_container.container {
+    display: block;
+}
+
+
+
+.kyle {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
 }
 
 section {
@@ -61,14 +78,14 @@ section {
 h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 1.8rem;
-    text-align: center;
+    text-align: left;
     margin-bottom: 20px;
 }
 
 .skills-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     gap: 15px;
 }
 
@@ -108,10 +125,16 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-    .container {
+    .header_container {
         display: grid;
         grid-template-columns: auto, auto;
         align-items: center;
+    }
+
+    #about_container.container {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 10px;
     }
     
     .logo {
