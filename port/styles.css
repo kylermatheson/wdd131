@@ -76,6 +76,10 @@ a {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+img.kyle  {
+    border-radius: 5px;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -194,6 +198,27 @@ a {
 
 a:hover {
     color: #e8e8e8;
+}
+
+#links-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#links-footer > div {
+    margin: 10px;
+}
+img.email {
+    height: 20px;
+}
+img.linkedin {
+    height: 20px;
+}
+
+.footer-img {
+    height: 20px;
 }
 
 @media (min-width: 768px) {
