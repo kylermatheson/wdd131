@@ -10,16 +10,36 @@ body {
     
 }
 
+
+
 header {
-    display: none;
+    background-color: #e8e8e8; /* Paynes Gray */
+    color: #1e2022;
+    padding: 20px 0;
 }
 
+.header_container {
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.bar {
+    display: none;
+   
+   }
 
 a {
     scroll-behavior: smooth;
 }
 
+.logo {
+    display: block;
+    text-align: center;
+}
+
 .sticky-footer {
+    display: block;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -77,6 +97,7 @@ a {
 
 img.kyle  {
     border-radius: 5px;
+
 }
 
 .container {
@@ -299,6 +320,7 @@ img.linkedin {
     }
     
     .bar {
+        display: block;
         grid-column: 2/3;
     }
 
