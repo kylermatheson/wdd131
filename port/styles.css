@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -52,6 +53,16 @@ header nav ul li a:hover {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
+
+}
+
+a {
+    scroll-behavior: smooth;
+}
+
+#margin {
+    margin: 0rem;
+    transition: margin 0.3s ease-in-out;
 }
 
 #about_container.container {
@@ -76,10 +87,17 @@ section {
 }
 
 h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.8rem;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 2.5rem;
     text-align: left;
     margin-bottom: 20px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    text-align: left;
+    margin-bottom: 5px;
 }
 
 .skills-list {
@@ -131,6 +149,11 @@ a:hover {
         align-items: center;
     }
 
+    #margin {
+        margin: 0 5rem;
+        transition: margin 0.3s ease-in-out;
+    }
+
     #about_container.container {
         display: grid;
         grid-template-columns: auto auto;
@@ -147,3 +170,37 @@ a:hover {
 
   }
 
+/* Blog page */
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #e8e8e8;
+    padding: 1rem;
+  }
+
+  .search-bar input {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    flex-grow: 1;
+    background-color: #e8e8e8;
+  }
+
+  .search-bar button {
+    border: none;
+    background-color: #2d3339;
+    color: #e8e8e8;;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+
+  }
+
+  .search-bar button:hover {
+    background-color: #bfbfbf;
+  }
