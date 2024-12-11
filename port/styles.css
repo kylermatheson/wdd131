@@ -129,6 +129,60 @@ footer {
     font-size: 0.9rem;
 }
 
+.contact-form-container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: #e8e8e8;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #1e2022;
+}
+
+.contact-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-container label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #1e2022;
+}
+
+.contact-form-container input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+}
+
+.contact-form-container button {
+    padding: 10px 15px;
+    background-color: #2d3339;
+    color: #e8e8e8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form-container button:hover {
+    background-color: #bfbfbf;
+}
+
+textarea {
+    resize: vertical; /* Allows resizing only horizontally */ /* Ensures it starts as full width of the container */ /* Set a minimum width to prevent it from getting too small */
+    max-width: 100%; /* Prevents it from growing beyond the container */
+    height: 100px; /* Set an initial height */
+}
+
 footer p {
     margin: 0;
 }
