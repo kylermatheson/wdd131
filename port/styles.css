@@ -79,7 +79,6 @@ a {
 }
 
 
-
 #margin {
     margin: 0rem;
     transition: margin 0.3s ease-in-out;
@@ -112,6 +111,11 @@ section {
 
 section#about {
     padding: 0px 0;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
 }
 
 h2 {
@@ -219,9 +223,9 @@ footer {
 }
 
 textarea {
-    resize: vertical; /* Allows resizing only horizontally */ /* Ensures it starts as full width of the container */ /* Set a minimum width to prevent it from getting too small */
-    max-width: 100%; /* Prevents it from growing beyond the container */
-    height: 100px; /* Set an initial height */
+    resize: vertical; 
+    max-width: 100%;
+    height: 100px; 
 }
 
 footer p {
