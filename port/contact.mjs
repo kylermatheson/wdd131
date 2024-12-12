@@ -1,9 +1,9 @@
-import emailjs from 'emailjs-com';
+import emailjs from 'emailjs-https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js';
 
 
-    (function() {
-        emailjs.init('Fp6g1E2RVKPuJ0To_'); // Replace with your EmailJS user ID
-    })();
+    emailjs.init({
+        publicKey: 'Fp6g1E2RVKPuJ0To_',
+      });
 
     document.querySelector('#contact').addEventListener('submit', function(event) {
         event.preventDefault(); // Prevent form submission
