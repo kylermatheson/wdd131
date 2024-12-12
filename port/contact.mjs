@@ -1,5 +1,3 @@
-import 'emailjs-https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js';
-
 
     emailjs.init({
         publicKey: 'Fp6g1E2RVKPuJ0To_',
