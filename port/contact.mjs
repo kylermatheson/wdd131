@@ -1,10 +1,11 @@
- src="https://cdn.emailjs.com/dist/email.min.js"
+import emailjs from 'emailjs-com';
+
 
     (function() {
-        emailjs.init('service_uta3ma4'); // Replace with your EmailJS user ID
+        emailjs.init('Fp6g1E2RVKPuJ0To_'); // Replace with your EmailJS user ID
     })();
 
-    document.querySelector('#contact form').addEventListener('submit', function(event) {
+    document.querySelector('#contact').addEventListener('submit', function(event) {
         event.preventDefault(); // Prevent form submission
         
         // Collect form data
@@ -13,7 +14,7 @@
         const message = document.querySelector('#message').value;
 
         // Send the email using EmailJS
-        emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', {
+        emailjs.send('service_uta3ma4', 'template_3fb82pb', {
             from_name: name,
             from_email: email,
             message: message,
