@@ -19,14 +19,14 @@ const articles = [
         tag: 'Entrepreneurship, Business Leadership, Passion, Perseverance, Vision',
       },
     {
-      id: 3,
-      title: 'Why Do New Businesses Fail and Succeed?',
-      date: 'December 11 2024',
-      description:
-        'Starting a business can be daunting, but understanding key factors like the importance of a strong team, market research, and adaptability can increase a startup\'s chance of success. This article explores common pitfalls and how to avoid them, with insights from experts like Tom Eisenmann, Jim Collins, and Eric Ries.',
-      imgSrc: 'port/images/pexels-tiger-lily-7109315.jpg',
-      imgAlt: 'startup team discussion',
-      tag: 'Startups, Market Research, Business Strategy, Entrepreneurship',
+        id: 3,
+        title: 'Why Do New Businesses Fail and Succeed?',
+        date: 'December 11 2024',
+        description:
+            'Starting a business can be daunting, but understanding key factors like the importance of a strong team, market research, and adaptability can increase a startup\'s chance of success. This article explores common pitfalls and how to avoid them, with insights from experts like Tom Eisenmann, Jim Collins, and Eric Ries.',
+        imgSrc: 'port/images/pexels-tiger-lily-7109315.jpg',
+        imgAlt: 'startup team discussion',
+        tag: 'Startups, Market Research, Business Strategy, Entrepreneurship',
     },
     ];
 
