@@ -12,7 +12,7 @@
         const message = document.querySelector('#message').value;
 
         // Send the email using EmailJS
-        emailjs.send('service_uta3ma4', 'template_3fb82pb', {
+        emailjs.send('service_uta3ma4', 'template_96xgxk9', {
             from_name: name,
             from_email: email,
             message: message,
