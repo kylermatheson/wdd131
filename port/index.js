@@ -1,4 +1,4 @@
-import articles from 'port/articles.mjs';
+import articles from './articles.mjs';
 
 // Function to get article
 function getListEntry(list) {
@@ -41,6 +41,7 @@ function renderRecipes(recipeList) {
 
 // Initalize Function
 function init() {
+    console.log("Init....")
     const article = [getListEntry(articles)];
     renderRecipes(article);
 }
