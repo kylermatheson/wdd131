@@ -383,3 +383,33 @@ img.linkedin {
   .search-bar button:hover {
     background-color: #bfbfbf;
   }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 5px;
+
+}
+
+.tags li {
+    background-color: #1e2022;
+    padding: 5px 10px;
+    border-radius: 5px;
+    list-style: none;
+}
+
+ul.tags{
+    padding: 0;
+}
+
+.art-img{
+    width: 100%;
+    height: 15rem;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.title {
+    padding: 0;
+}  
