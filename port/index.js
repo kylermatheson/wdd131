@@ -1,14 +1,5 @@
 import articles from './articles.mjs';
 
-// Function to get article
-function getListEntry(list) {
-    let result = [];
-    for (let i = 0; i < list.length; i++) {
-        result.push(list[i]);
-    }
-    return result;
-}
-
 // Template function Tags
 function tagsTemplate(tags) {
     return tags.map(tag => `<li>${tag}</li>`).join('');
@@ -17,14 +8,14 @@ function tagsTemplate(tags) {
 
 // Template function for an article
 function articleTemplate(article) {
-    return `  <div class="card article">
+    return `<div class="card article">
                 <div>
-                    <img src="${article.imgSrc}" alt="${article.imgAlt}">
+                    <img class="art-img" src="${article.imgSrc}" alt="${article.imgAlt}">
                 </div>
                 <div>
-                    <h3>${article.title}</h3>
-                    <ul class="list">
-                        ${tagsTemplate(recipe.tags)}
+                    <h2>${article.title}</h2>
+                    <ul class="tags">
+                        ${tagsTemplate(article.tags)}
                     </ul>
                     <p class="italics">${article.date}</p>
                     <p>${article.description}</p>
@@ -33,17 +24,36 @@ function articleTemplate(article) {
 }
 
 // Render Function
-function renderRecipes(recipeList) {
-    const outputElement = document.getElementsByClassName('container');
+function renderArticles(articleList) {
+    const outputElement = document.getElementById('jsSelector');
     const articleHTML = articleList.map(articleTemplate).join('');
     outputElement.innerHTML = articleHTML;
+}
+
+// Filter recipes based on the query
+function filterArticles(query) {
+    return articles.filter(article => 
+        article.title.toLowerCase().includes(query) ||
+        article.description.toLowerCase().includes(query) ||
+        article.tags.some(tag => tag.toLowerCase().includes(query))
+    ).sort((a, b) => a.title.localeCompare(b.title));
+}
+
+// Event listener for search functionality
+function searchHandler(event) {
+    event.preventDefault();
+    const query = document.getElementById('search-input').value.toLowerCase();
+    const filteredArticles = filterArticles(query);
+    renderArticles(filteredArticles);
 }
 
 // Initalize Function
 function init() {
     console.log("Init....")
-    const article = [getListEntry(articles)];
-    renderRecipes(article);
+    renderArticles(articles);
 }
 
-init()
+document.addEventListener('DOMContentLoaded', () => {
+    init();
+    document.getElementById('search-button').addEventListener('click', searchHandler);
+});
