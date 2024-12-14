@@ -8,12 +8,12 @@ function tagsTemplate(tags) {
 
 // Template function for an article
 function articleTemplate(article) {
-    return `<div class="card article">
+    return `<div class="card article" >
                 <div>
                     <img class="art-img" src="${article.imgSrc}" alt="${article.imgAlt}">
                 </div>
                 <div>
-                    <h2>${article.title}</h2>
+                    <h2><a id="${article.id}" class="h2-link" href="post.html">${article.title}</a></h2>
                     <ul class="tags">
                         ${tagsTemplate(article.tags)}
                     </ul>
