@@ -112,7 +112,7 @@ their grit and determination. </p>`
                     difficulty despite wanting to quit. Steve Jobs stated, “I'm convinced that
                     about half of what separates successful entrepreneurs from the non-successful
                     ones is pure perseverance”<span style='font-size:14.5pt;line-height:200%;
-                    font-family:"Georgia",serif;color:black;background:white'> </span>(Jobs, Luenendonk,
+                    font-family:"Georgia",serif;> </span>(Jobs, Luenendonk,
                     as cited in <i>42 Entrepreneur Quotes to Motivate and Inspire you</i>, 2022, para
                     4). Often, entrepreneurs feel they have a good enough idea so the idea can
                     carry the company through.  Therefore, when faced with challenges, they
@@ -147,7 +147,7 @@ their grit and determination. </p>`
                     <p class=MsoNormal>In summary, new entrepreneurs must be equipped for anything
                     they make come back running their businesses. Particularly, having attributes
                     of perseverance, passion, and vision will work together to help entrepreneurs
-                    develop a successful business.</p>'`
+                    develop a successful business.</p>`
       },
     {
         id: 2,
