@@ -6,7 +6,7 @@ function tagsTemplate(tags) {
 }
 
 
-// Template function for an article
+// Template function for an article 
 function articleTemplate(article, index) {
     return   `<div id="post-header" class="post-container">
                 <div class="div-post-img">
