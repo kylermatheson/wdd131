@@ -2,7 +2,7 @@ const articles = [
 	{
 		id: 0,
 		title: 'How to Start a Successful Business?',
-		date: 'December 10 2024',
+		date: 'December 14, 2024',
 		description:
 			"Starting a successful business isn’t just about having a great idea—it’s about turning that idea into a viable, profitable venture. From market research to creating a business plan and navigating legal steps, here's how you can set your business up for success",
 		imgSrc: 'images/pexels-goumbik-669610.jpg',
@@ -97,7 +97,7 @@ their grit and determination. </p>`
     {
         id: 1,
         title: 'Qualities of an Entrepreneur',
-        date: 'December 12 2024',
+        date: 'December 14, 2024',
         description: 'Entrepreneurs must possess key qualities like passion, perseverance, and vision to succeed in the challenging world of business. These attributes work together to help entrepreneurs overcome obstacles and create lasting success.',
         imgSrc: 'images/pexels-thirdman-7653971.jpg',
         imgAlt: 'entrepreneur in action',
@@ -152,7 +152,7 @@ their grit and determination. </p>`
     {
         id: 2,
         title: 'Why Do New Businesses Fail and Succeed?',
-        date: 'December 11 2024',
+        date: 'December 14, 2024',
         description:
             'Starting a business can be daunting, but understanding key factors like the importance of a strong team, market research, and adaptability can increase a startup\'s chance of success. This article explores common pitfalls and how to avoid them, with insights from experts like Tom Eisenmann, Jim Collins, and Eric Ries.',
         imgSrc: 'images/pexels-tiger-lily-7109315.jpg',
