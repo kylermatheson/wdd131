@@ -111,8 +111,7 @@ their grit and determination. </p>`
                     <p class=MsoNormal>Perseverance for an entrepreneur means pushing through
                     difficulty despite wanting to quit. Steve Jobs stated, “I'm convinced that
                     about half of what separates successful entrepreneurs from the non-successful
-                    ones is pure perseverance”<span style='font-size:14.5pt;line-height:200%;
-                    font-family:"Georgia",serif;> </span>(Jobs, Luenendonk,
+                    ones is pure perseverance”(Jobs, Luenendonk,
                     as cited in <i>42 Entrepreneur Quotes to Motivate and Inspire you</i>, 2022, para
                     4). Often, entrepreneurs feel they have a good enough idea so the idea can
                     carry the company through.  Therefore, when faced with challenges, they
